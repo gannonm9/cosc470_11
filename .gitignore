@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 data/cifar-10-python.tar.gz
 data/cifar-10-batches-py/
+=======
+# Data folders
+data
+>>>>>>> e196660f3867cc4f277603df2a55cc369838e366
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
