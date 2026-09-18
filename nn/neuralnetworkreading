@@ -1,0 +1,9 @@
+Neural networks learn from examples instead of relying on manually programmed rules, which makes them useful for tasks such as handwritten-digit recognition.
+Perceptrons are simple artificial neurons that combine inputs using weights and a bias to produce a binary output of 0 or 1.
+Sigmoid neurons improve on perceptrons by producing smooth outputs between 0 and 1, allowing small parameter changes to create small output changes.
+A neural network typically contains an input layer, one or more hidden layers, and an output layer. Hidden layers learn useful intermediate patterns or features.
+For handwritten-digit recognition, the network uses 784 input neurons for the \(28 \times 28\) image pixels and 10 output neurons, one for each digit from 0 to 9.
+The network is trained using the MNIST dataset, which contains 60,000 training images and 10,000 test images of handwritten digits.
+A cost function measures how far the network's prediction is from the correct answer. Training aims to adjust weights and biases so that this cost becomes as small as possible.
+Gradient descent reduces the cost by repeatedly changing weights and biases in the direction opposite to the gradient. The learning rate controls how large each update is.
+Stochastic gradient descent (SGD) speeds up training by using small groups of examples called mini-batches instead of the entire dataset at once. One complete pass through the training data is called an epoch.
