@@ -152,7 +152,7 @@ class Network(object):
         return correct_counts
 
     def cost_derivative(self, output_activations, y):
-        """Return the vector of partial derivatives \partial C_x /
+        r"""Return the vector of partial derivatives \partial C_x /
         \partial a for the output activations."""
         return (output_activations-y)
 
