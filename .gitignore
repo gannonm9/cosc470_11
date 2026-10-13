@@ -1,6 +1,8 @@
 # Large dataset files
 lab1/data/
 lab6/data/
+data/MNIST/
+startingpoints/data/MNIST/
 data/cifar-10-python.tar.gz
 data/cifar-10-batches-py/
 
