@@ -2,7 +2,10 @@
 lab1/data/
 lab6/data/
 data/MNIST/
+data/celeba/
+data/img_align_celeba.zip
 startingpoints/data/MNIST/
+startingpoints/data/cifar-10-batches-py/
 data/cifar-10-python.tar.gz
 data/cifar-10-batches-py/
 
@@ -224,3 +227,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+startingpoints/data/cifar-10-python.tar.gz
