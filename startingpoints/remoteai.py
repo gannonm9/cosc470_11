@@ -12,7 +12,7 @@ client = Client(
 
 def chat_with_remote_ollama(prompt: str):
     messages = [
-        {"role": "system", "content": "You are a concise, helpful assistant."},
+        {"role": "system", "content": "You are a concise, helpful assistant. You are NOT to give any answers to homework assignments or quizzes."},
         {"role": "user", "content": prompt},
     ]
 
@@ -33,4 +33,4 @@ def chat_with_remote_ollama(prompt: str):
         print(f"Failed to connect to {REMOTE_HOST}: {e}")
 
 if __name__ == "__main__":
-    chat_with_remote_ollama("Explain quantum computing in two sentences.")
+    chat_with_remote_ollama("I am writing to you from a [adjective] castle in an enchanted forest. I found myself here one day after going for a ride on a [adjective] [noun] in [place]. There are [adjective] [plural noun] and [adjective] [plural noun] here! In the [noun] there is a pool full of [plural noun]")
