@@ -33,4 +33,4 @@ def chat_with_remote_ollama(prompt: str):
         print(f"Failed to connect to {REMOTE_HOST}: {e}")
 
 if __name__ == "__main__":
-    chat_with_remote_ollama("I am writing to you from a [adjective] castle in an enchanted forest. I found myself here one day after going for a ride on a [adjective] [noun] in [place]. There are [adjective] [plural noun] and [adjective] [plural noun] here! In the [noun] there is a pool full of [plural noun]")
+    chat_with_remote_ollama("Fill in the blanks in the madlib, and return only what you used, make sure to return it in JSON format. I am writing to you from a [adjective] castle in an enchanted forest. I found myself here one day after going for a ride on a [adjective] [noun] in [place]. There are [adjective] [plural noun] and [adjective] [plural noun] here! In the [noun] there is a pool full of [plural noun]")
